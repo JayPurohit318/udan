@@ -32,8 +32,8 @@ const ctas = [
     icon: Mail,
     title: "Write Us",
     desc: "Reach out to us by email",
-    action: "hello@shresthudan.com",
-    href: "mailto:hello@shresthudan.com",
+    action: "shresthudan@gmail.com",
+    href: "mailto:shresthudan@gmail.com",
     isLink: true,
   },
   {
