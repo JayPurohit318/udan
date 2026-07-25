@@ -1,0 +1,15 @@
+# Udan Travels
+
+> Shresth Udan Travels Ltd — IATA-licensed travel agency in Ahmedabad since 1990. Flights, hotels, visa, passport, cruise and curated tour packages.
+
+## Pages
+
+- [Home](/): Overview of Udan Travels services and packages.
+- [About](/about): Our 35+ year story, mission and team.
+- [Services](/services): Full range of travel services.
+- [Passport Services](/services/passport): Fresh, renewal, tatkaal and minor passports.
+- [Visa Services](/services/visa): Tourist, business and student visa assistance for 50+ countries.
+- [Packages](/packages): Domestic and international holiday packages.
+- [Destinations](/destinations): Curated travel destinations worldwide.
+- [Blog](/blog): Travel guides, tips and stories.
+- [Contact](/contact): Reach out to plan your trip.
