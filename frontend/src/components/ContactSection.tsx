@@ -16,28 +16,32 @@ const ContactSection = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const formData = new FormData();
+      formData.append("name", form.name);
+      formData.append("email", form.email);
+      formData.append("phone", form.phone);
+      formData.append("message", form.message);
+      formData.append("_subject", "New contact form submission from Udan Travels");
+      formData.append("_captcha", "false");
+
+      const response = await fetch("https://formsubmit.co/ajax/purohitjay07@gmail.com", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          Accept: "application/json",
         },
-        body: JSON.stringify(form),
+        body: formData,
       });
 
       const data = await response.json();
-
-      if (response.ok) {
+      if (data.success || data.message === "success") {
         toast({
           title: "Message Sent!",
-          description: data.message,
+          description: data.message || "Your message was sent successfully.",
         });
         setForm({ name: "", email: "", phone: "", message: "" });
+        window.location.href = "/thank-you";
       } else {
-        toast({
-          title: "Error",
-          description: data.error ? Object.values(data.error).join(' • ') : data.message || "Failed to send message",
-          variant: "destructive",
-        });
+        throw new Error(data.message || "Failed to send message.");
       }
     } catch (error) {
       console.error("Error:", error);

@@ -53,17 +53,25 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const formData = new FormData();
+      formData.append("name", result.data.name);
+      formData.append("email", result.data.email);
+      formData.append("phone", result.data.phone);
+      formData.append("message", result.data.message);
+      formData.append("_subject", "New contact form submission from Udan Travels");
+      formData.append("_captcha", "false");
+
+      const response = await fetch("https://formsubmit.co/ajax/purohitjay07@gmail.com", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          Accept: "application/json",
         },
-        body: JSON.stringify(result.data),
+        body: formData,
       });
 
       const data = await response.json();
 
-      if (!response.ok) {
+      if (!data.success && data.message !== "success") {
         setIsSubmitting(false);
         toast({
           title: "Unable to send message",
@@ -77,9 +85,9 @@ const Contact = () => {
         title: "Message sent",
         description: data.message || "Your enquiry has been delivered.",
       });
-      setSubmitted(true);
-      setForm({ name: "", email: "", message: "" });
+      setForm({ name: "", email: "", phone: "", message: "" });
       setErrors({});
+      window.location.href = "/thank-you";
     } catch (error) {
       console.error(error);
       setIsSubmitting(false);
