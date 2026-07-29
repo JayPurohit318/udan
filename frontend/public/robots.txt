@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://sky-soar-site.lovable.app/sitemap.xml
+Sitemap: https://https://shresthudan.com/sitemap.xml
