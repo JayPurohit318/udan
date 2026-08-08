@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://https://shresthudan.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://https://shresthudan.com/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://https://shresthudan.com/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://https://shresthudan.com/packages</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://https://shresthudan.com/services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://https://shresthudan.com/services/passport</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://https://shresthudan.com/services/visa</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://https://shresthudan.com/destinations</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://https://shresthudan.com/blog</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://shresthudan.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://shresthudan.com/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shresthudan.com/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shresthudan.com/packages</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://shresthudan.com/services</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://shresthudan.com/services/passport</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shresthudan.com/services/visa</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shresthudan.com/destinations</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shresthudan.com/blog</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 </urlset>

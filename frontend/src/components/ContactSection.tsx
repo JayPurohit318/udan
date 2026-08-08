@@ -24,7 +24,7 @@ const ContactSection = () => {
       formData.append("_subject", "New contact form submission from Udan Travels");
       formData.append("_captcha", "false");
 
-      const response = await fetch("https://formsubmit.co/ajax/purohitjay07@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/shresthudan@gmail.com", {
         method: "POST",
         headers: {
           Accept: "application/json",
